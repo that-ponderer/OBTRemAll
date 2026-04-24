@@ -84,7 +84,7 @@
 (defpoll window_info
     :interval "1s"
     :initial "{}"
-    "./helper fetch_window"
+    "./helper scroll_text \"$(./helper fetch_window | jq -r '.title')\" 75"
 )
 ; }}}
 
@@ -274,7 +274,7 @@
     (box
         :class "window"
         (label
-            :text "${window_info.title}"
+            :text "${window_info}"
         )
     )
 )
