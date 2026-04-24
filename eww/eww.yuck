@@ -274,7 +274,7 @@
     (box
         :class "window"
         (label
-            :text "${window_info}"
+            :text "${(window_info != 'null')?'${window_info}':''}"
         )
     )
 )
