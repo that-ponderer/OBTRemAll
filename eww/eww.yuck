@@ -297,7 +297,7 @@
             :onclick "${(show_music_element == 'true')?'${helper} flash music_card':''}"
             :class fetch_music
             (label
-                :text "${(show_music_element == 'true' )?'${music_notes_animation}-':''}"
+                :text "${(show_music_element == 'true' )?'| ${music_notes_animation} |':''}"
             )
         )
     )
