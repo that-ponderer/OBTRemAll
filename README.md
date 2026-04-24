@@ -1,6 +1,6 @@
 <h1 align="center">OBTRemAll</h1>
 
-<p align="center">One Bar To Rule ’em All</p>
+<p align="center">"One Bar To Rule ’em All"</p>
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img alt="showcase1" src="https://github.com/user-attachments/assets/dba71bf1-c302-4908-a6f6-a811fb213350" style="width: 48%; height: auto;" />
@@ -21,15 +21,19 @@
 > [!NOTE]
 > ### External Tools:
 > `eww` - *duh* ;p \
-> `jq` - Json parsing \
+> `jq` - JSON parsing \
 > `ip` - Network parsing \
 > `bluetoothctl` - Bluetooth parsing and managing \
 > `pipewire` `wpctl` - Audio stack \
 > `rmpc` - Music widget \
 > `niri` - Workspaces widget \
->  `kill` `killall` `whoami` `uname` `lsof` `fuser` `ps` `xprop` `grep` - Every coreutiles used
+>  `kill` `killall` `whoami` `uname` `lsof` `fuser` `ps` `xprop` `grep` - Every coreutils used
 > ### Usage:
 > ```sh
-> mv "./OBTRemAll/eww"  "~/.config/eww" 
+> mv ./OBTRemAll/eww  ~/.config/eww 
 > eww open OBTRemAll
 > ```
+
+---
+
+sick name = motivation
